@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jeevan's Digital Clock</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <title>Jeevan's Digital Clock</title>
     <style>
         * {
             margin: 0;
@@ -18,17 +18,18 @@
             left: 50%;
             position: absolute;
             transform: translate(-50%, -50%);
-            background: #111;
+            background: #000;
         }
+        
 
         h2 {
-            color: #fff;
+            color: white;
             text-align: center;
-            margin: 10px 0;
-            font-weight: 700;
+            margin: 20px 0;
+            font-weight: 1000;
             text-transform: uppercase;
-            letter-spacing: 4px;
-            font-size: 18px;
+            letter-spacing: 15px;
+            font-size: 20px;
         }
 
         #realtime #time {
@@ -37,22 +38,22 @@
 
         div {
             position: relative;
-            margin: 0 5px;
+            margin: 0 10px;
         }
 
         div label {
             cursor: pointer;
             position: relative;
-            width: 100px;
-            height: 100px;
-            background: linear-gradient(to right, #111, #fff);
+            width: 220px;
+            height: 200px;
+            background: linear-gradient(to right, #111, yellow);
             color: #111;
             font-weight: 550;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 3em;
-            z-index: 10;
+            font-size: 10em;
+            z-index: 15;
         }
 
         label:before {
@@ -64,18 +65,18 @@
             top: 0.5rem;
             filter: blur(0.4rem);
             opacity: 0.7;
-            z-index: -1;
+            z-index: -2;
         }
 
         div label:nth-child(2) {
             height: 30px;
-            font-size: 0.7em;
-            letter-spacing: 0.2em;
+            font-size: 1.5em;
+            letter-spacing: 0.1em;
             z-index: 9;
             color: #111;
             text-transform: uppercase;
-            background: linear-gradient(to right, #111, #fff);
-            top: 1px;
+            background: linear-gradient(to right, #111, yellow);
+            top: 2px;
         }
 
         .hrs {
@@ -109,7 +110,7 @@
 
 <body>
     <div id="realtime">
-        <h2>Digital Clock</h2>
+        <h2><span>Jeevan's Digital Clock</span></h2>
         <div id="time">
             <div class="hrs"><label id="hrs"></label><label>Hours</label></div>
             <div class="mint"><label id="mint"></label><label>Minutes</label></div>
