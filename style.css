@@ -26,7 +26,7 @@
             font-size: 18px;
         }
 
-        #currenttime #time {
+        #curtime #time {
             display: flex;
         }
 
@@ -130,7 +130,7 @@
             font-size: 20px;
         }
 
-        #currenttime #time {
+        #curtime #time {
             display: flex;
         }
 
