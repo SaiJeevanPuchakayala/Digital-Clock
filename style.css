@@ -26,7 +26,7 @@
             font-size: 18px;
         }
 
-        #realtime #time {
+        #currenttime #time {
             display: flex;
         }
 
@@ -130,7 +130,7 @@
             font-size: 20px;
         }
 
-        #realtime #time {
+        #currenttime #time {
             display: flex;
         }
 
