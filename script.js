@@ -1,5 +1,5 @@
 
-        function currenttime() {
+        function curtime() {
             var hr = document.getElementById('hrs');
             var mint = document.getElementById('mint');
             var sec = document.getElementById('sec');
